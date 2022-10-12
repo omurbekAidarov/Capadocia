@@ -1,0 +1,340 @@
+*{
+   padding: 0;
+   margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Header */
+header{
+    height: 100vh;
+    background-image: url(./folder.images/Rectangle\ 43.jpg);
+    background-position-y: center;
+    background-size: cover;
+}
+.header_navigation{
+display: flex;
+justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    justify-content: space-between;
+}
+ul{
+display: inline-flex;
+}
+
+.li2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 50px;
+    list-style: none;
+}
+.li3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 50px;
+    list-style: none;
+}
+.Header_icon{
+    font-size: 25px;
+    margin-bottom: -7px;
+}
+#Haeder_link-number{
+    display: inline-flex;
+}
+.Header_links{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+.Header_links:hover{
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.582);
+}
+.Header_h1_cappadocia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    height: 85.7% ;
+}
+h1{
+    font-size: 1000%;
+    font-weight: 100;
+    font-family: 'Pinyon Script', cursive;
+}
+.Header_p_Cappadocia{
+    font-family: 'Poiret One', cursive;
+    position: absolute;
+    font-size: 35px;
+    right: 25%;
+    bottom: 35%;
+}
+/* main */
+
+/* outsaiders */
+/* выучить тему скролинга ибо интересно */
+.gallery {
+    margin-top: -2.5%;
+    margin-left: -3%;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(10, 80vw);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow: scroll;
+	height: 90vh;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+    
+}
+.gallery-2{
+    margin-top: -2.5%;
+    margin-left: -3%;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: repeat(10, 80vw);
+	grid-template-rows: 1fr;
+	grid-column-gap: 1rem;
+	grid-row-gap: 1rem;
+	overflow: scroll;
+	height: 104.6%;
+    /* background-size: cover; */
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+}
+.active {
+	scroll-snap-type: unset;
+}
+li {
+    background-size: cover;
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 0;
+    background-size: 63% 108vh;
+    background-repeat: no-repeat;
+}
+
+
+/* section-1st */
+
+.Main_first-section{
+    display: flex;
+    align-items: flex-end;
+    height: 100vh;
+}
+.Fairy-tail{
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    bottom: -110px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+h2{
+    color: #E2AB3F;
+    text-align: center;
+    font-family: 'Monsieur La Doulaise', sans-serif ;
+    font-size: 55px;
+}
+h3{
+    font-weight: 400;
+}
+.content_first-section{
+    width: 50%;
+    height: 98vh;
+}
+#Main_first-sct_div-text-content{
+    font-size: 13px;
+    padding-top: 10%;
+    padding-left: 45px;
+    padding-right: 85px;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+.dov-text-content_p{
+    margin-top: 30px;
+}
+
+/* secend section */
+.Main_secend-section{
+    align-items: flex-end;
+    display: flex;
+    height: 120vh;
+}
+#tetx_conetn-handp{
+    font-family: 'Roboto Condensed', sans-serif ;
+    padding: 30px 190px 260px 260px;
+}
+#p-mrgin{
+    margin-top: 5px;
+letter-spacing: 1px;
+}
+.text-conten-m{
+    margin-top: 20px;
+}
+.resrvation{
+    border: #E2AB3F solid 2.5px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+}
+.our_tip-p{
+    
+    font-family: 'Roboto Condensed', sans-serif ;
+    position: absolute;
+    left: 338px;
+    margin-top: -25px;
+}
+.content_secend-section{
+    width: 50%;
+    height: 108vh;
+}
+/* third section */
+.Main_third_section{
+    display: flex;
+    height: 100vh;
+}
+.third_section-content{
+    width: 50%;
+    height: 100%;
+}
+#content_image{
+
+    background-image: url(./folder.images/Rectangle\ 24.png);
+    background-position: right;
+    background-size: 57% 75%;
+    background-repeat: no-repeat;
+}
+#content_text-third-sct{
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 13px;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 140px;
+}
+#content_text-4images{
+    padding-top: 60px;
+    height: 100vh;
+    /* display: flex;
+    align-items: flex-end; */
+}
+.pdg-images{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.content_4images{
+    padding: 30px 30px 50px 30px ;
+    width: 90%;
+   height: 300px;
+}
+/* section FOURTH */
+.Main_Fourth_section{
+    justify-content: center;
+    display: flex;
+    height: 60vh;
+}
+.content_fourth_section{
+    width: 35%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 12px;
+}
+.airjoint{
+    position: relative;
+}
+#airjoint1{
+    left: -60px;
+    top: -10px;
+    position: absolute;
+}
+#airjoint2{
+    position: absolute;
+top:190px;
+left: -150px;
+}
+#airjoint3{
+    position: absolute;
+    top: 290px;
+    /* right: 50px; */
+
+}
+.contrnt_fourth_section-h3{
+margin-top: 45px;
+}
+.conten_fourth_sct-p{
+    padding-top: 15px;
+}
+/* section fiveth */
+.Main_fivth_section{
+    height: 100vh;
+    display: flex;
+}
+#fiveth_sct-content_pinput{
+    
+} 
+#fivrth_sct-conten_image{
+    background-image: url(./folder.images/Rectangle\ 55.png);
+    background-repeat: no-repeat;
+    background-position: 30px;
+    background-size: 75% 85%;
+}
+.fivth_sct-content{
+    width: 50%;
+    height: 100%;
+}
+#fiveth_sct-content_pinput{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.resrvation2{
+    border: #E2AB3F solid 2.5px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+
+    margin-right: 30px;
+
+    margin-top: 35px;
+}
+.inputs_fiveth-section{
+    border: #E2AB3F solid 2.5px;
+    margin-right: 30px;
+    width: 200px;
+    height: 30px;
+    margin-top: 35px;
+}
+#text-fiveth_sct{
+margin-top: 35px;
+    margin-right: 30px;
+}
+/* footer */
+footer{
+    position: relative;
+    height: 110vh;
+    background-image: url(./folder.images/Rectangle\ 42.png);
+    background-size: cover;
+}
+.footer_div{
+    top: 99px;
+    position: absolute;
+    background-image: url(./folder.images/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2.png);
+    background-size: cover;
+    background-position: center;
+    right: 650px;
+    width: 286px;
+    height: 427px;
+}
